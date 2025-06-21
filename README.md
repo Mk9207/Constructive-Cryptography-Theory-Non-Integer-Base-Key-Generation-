@@ -1,15 +1,57 @@
-# Constructive Cryptography Theory (Non-Integer Base Key Generation)
+
 構成的暗号理論（非整数基底鍵生成）
 
-## Overview / 概要
-This repository introduces a novel cryptographic theory based on non-integer base key generation. Unlike traditional cryptographic systems relying on integer-based modular arithmetic, this model defines a key generation mechanism utilizing rational or irrational bases, structurally ensuring computational complexity and unpredictability. It aims to strengthen future-proof encryption methods against emerging quantum and AI threats.
 
-本リポジトリは、非整数基底に基づく新たな暗号理論を提案します。従来の整数演算ベースの暗号と異なり、有理数または無理数を基底とした鍵生成機構を構成的に定義し、計算困難性と予測不能性を両立します。量子計算機やAIによる解読に対抗する次世代暗号の理論的基盤を提供します。
+---
 
-## Files / ファイル構成
-- `sections/definition.md` - Definition of non-integer base cryptographic primitives / 非整数基底暗号の定義
-- `sections/theorem.md` - Security theorems and complexity analysis / セキュリティ定理と複雑性解析
-- `sections/application.md` - Application to post-quantum encryption schemes / ポスト量子暗号への応用
+🔎 概要・概要
 
-## License / ライセンス
-See the LICENSE file for usage rights. 特許適用理論のため、商用利用・再配布には制限があります。
+このリポジトリは、非整数基数鍵生成に基づく新たな暗号理論を紹介します。
+整数ベースのモジュラー演算に依存する従来の暗号システムとは異なり、このモデルは有理数基数または無理数基数を用いた鍵生成メカニズムを定義し、計算の複雑さと予測不可能性の構造を保証します。
+これは、新たな量子およびAIの脅威に対する将来を見据えた暗号化手法の強化を目的としています。
+
+従来の整数演算ベースの暗号と異なり、有理数または無理数を基にした鍵生成機構を構成的に定義し、計算困難性と予測不能性を両立します。
+量子計算機やAIによる読み解き脅威に対抗する次世代暗号の理論的基盤を提供します。
+
+
+---
+
+🔧 ファイル / ファイル構成
+
+sections/definition.md：非整数基底暗号の定義／非整数基底暗号の定義
+
+sections/theorem.md：セキュリティ定理と複雑性解析／セキュリティ定理と複雑性解析
+
+sections/application.md：ポスト量子暗号への応用／ポスト量子暗号への応用
+
+
+
+---
+
+🚀 応用例 / Applications
+
+🔰 一般向け応用：
+
+高度なパスワード生成とクラウド保護
+
+生体情報に基づく暗号化ID管理（例：指紋 × 暗号鍵の動的統合）
+
+モバイル端末やIoT家電の予測不能なセキュリティ強化
+
+
+🔧 専門的応用：
+
+量子耐性を持つ非整数ベースの暗号プロトコル設計
+
+AIによる鍵解読耐性を持つセキュリティエンジン
+
+暗号通信・ブロックチェーンにおける再鍵生成機構
+
+
+
+---
+
+⚖️ ライセンス / ライセンス
+
+使用権については、LICENSEファイルを参照してください。
+特許適用理論のため、商業利用・再配布には制限があります。
